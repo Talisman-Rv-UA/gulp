@@ -2,13 +2,61 @@
 <html lang="uk" class="page">
   @include('partials/head.html')
 
-  <body class="page__body">
-    <div class="site-container">
-      @include('partials/header.html')
-      <main class="main"></main>
+  <body class="page__body"> 
 
-      @include('partials/footer.html')
-      <!-- @include('html/h1.html') пример include -->
+    <div class="wrapper">
+      <div class="header">
+        <div class="title">
+          <h1>Featured Developers</h1>
+          <p>Use our featured developers for your web projects</p>
+        </div>
+      </div>
+  
+      <div class="main">
+        <div class="block-image">
+          <div class="item item-1">
+            <div class="item-info">
+              <h2>Agbama Ulimhuka</h2>
+              <p>Webflow developer</p>
+            </div>
+          </div>
+          <div class="item item-2">
+            <div class="item-info">
+              <h2>Surita Patnam</h2>
+              <p>Bubble developer</p>
+            </div>
+          </div>
+          <div class="item item-3">
+            <div class="item-info">
+              <h2>Richard Bomaventure</h2>
+              <p>React.js developer</p>
+            </div>
+          </div>
+          <div class="item item-4">
+            <div class="item-info">
+              <h2>Elliana James</h2>
+              <p>Vue.js developer</p>
+            </div>
+          </div>
+          <div class="item item-5">
+            <div class="item-info">
+              <h2>Richard Bomaventure</h2>
+              <p>React.js developer</p>
+            </div>
+          </div>
+          <div class="item item-6">
+            <div class="item-info">
+              <h2>Samuel Oghenakaro</h2>
+              <p>Webflow developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <button class="btn"><a href="#">Get featured</a></button>
+      </div>
     </div>
+
   </body>
 </html>
